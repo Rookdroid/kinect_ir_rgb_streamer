@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kinect_ir_rgb_streamer</name>
+  <version>1.0.0</version>
+  <description>This package demonstrates how to stream both RGB and IR images together on the kinect sensor. </description>
+
+  <maintainer email="Geoffrey.Louie@gmail.com">Geoff</maintainer>
+  <license>GPLv2</license>
+	<buildtool_depend>catkin</buildtool_depend>
+	<depend>image_transport</depend>
+	<depend>roscpp</depend>
+	<depend>std_msgs</depend>
+	<depend>sensor_msgs</depend>
+	<depend>cv_bridge</depend>
+</package>
